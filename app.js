@@ -23,4 +23,4 @@ app.use('/api', user_routes);
 //   res.status(200).send({  message: 'Bienvenido al curso de mean2 robles'  });    
 //  });
 
- module.exports  = app;
+ module.exports = app;

@@ -1,7 +1,8 @@
 'use strict'
 
-import { Mongoose, Schema as _Schema } from 'mongoose';
-const Schema = _Schema;
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
 
 let UserSchema = Schema({
 
@@ -14,6 +15,6 @@ image:String
 
 });
 
-module.exports = Mongoose.model('User',UserSchema);
+module.exports = mongoose.model('User',UserSchema);
 
 
