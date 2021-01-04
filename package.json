@@ -18,7 +18,8 @@
     "jwt-simple": "^0.5.6",
     "moment": "^2.29.1",
     "mongoose": "^5.11.9",
-    "mongoose-pagination": "^1.0.0"
+    "mongoose-pagination": "^1.0.0",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
