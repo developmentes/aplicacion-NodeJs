@@ -5,7 +5,7 @@ const Schema = _Schema;
 
 let SongSchema = Schema({
 
-numbe: String,
+number: String,
 name:String,
 duration:String,
 file:String,

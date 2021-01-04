@@ -14,7 +14,7 @@ artist:{ type: Schema.ObjectId, ref: 'Artist'} //esto es parecido a la foreign k
 
 });
 
-module.exports = Mongoose.model('Album',AlbumSchema);//Artist es el nombre que le daremos 
+module.exports = Mongoose.model('Album',AlbumSchema);//Album es el nombre que le daremos 
                                                         //al objeto que utilizaremos para ocupar 
                                                         //la informacion de ArtistSchema que tiene la informacion del artista 
 
